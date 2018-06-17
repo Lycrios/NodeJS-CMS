@@ -1,0 +1,20 @@
+/*
+* @Author: Matthew Auld 
+* @Date: 2018-06-17 02:46:10 
+ * @Last Modified by: Matthew Auld
+ * @Last Modified time: 2018-06-17 02:51:26
+* @File: login.css
+* Copyright 2018 JumpButton North - All rights reserved. 
+*/
+
+html,body{
+	height:100%;
+}
+
+body{
+	background: #238bb2;
+	background: -moz-linear-gradient(top, #238bb2 0%, #696abd 100%);
+	background: -webkit-linear-gradient(top, #238bb2 0%,#696abd 100%);
+	background: linear-gradient(to bottom, #238bb2 0%,#696abd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#238bb2', endColorstr='#696abd',GradientType=0);
+}

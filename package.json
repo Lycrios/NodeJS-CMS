@@ -1,0 +1,22 @@
+{
+  "name": "jumpbutton-north-cms",
+  "version": "1.0.0",
+  "description": "An easy to use content management system for NodeJS, ExpressJS and Handlebars.",
+  "main": "server.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon server.js"
+  },
+  "author": "Lycrios",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "jbs-seo-handlebars": "^1.0.2",
+    "jbs-simple-console-logger": "^1.0.32",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

@@ -1,0 +1,21 @@
+{{!
+* @Author: Matthew Auld 
+* @Date: 2018-06-17 01:38:38 
+* @Last Modified by:   Matthew Auld 
+* @Last Modified time: 2018-06-17 01:38:38 
+* @File: bread_crumb.hbs
+* Copyright 2018 JumpButton North - All rights reserved. 
+}}
+<div class="container pt-3">
+	<div class="row">
+		<div class="col">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					{{#each breadCrumbSteps}}
+					<li class="breadcrumb-item{{#if active}} active{{/if}}" aria-current="page">{{#unless active}}<a href="{{link}}">{{/unless}}{{name}}{{#unless active}}</a>{{/unless}}</li>
+					{{/each}}
+				</ol>
+			</nav>
+		</div>
+	</div>
+</div>
